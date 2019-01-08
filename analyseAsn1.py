@@ -5,7 +5,7 @@ import base64
 import re
 
 if (len(sys.argv) != 3):
-    print("Useage: {} certfile pem/der)".format(sys.argv[0]))
+    print("Usage: {} certfile pem/der)".format(sys.argv[0]))
     sys.exit(1)
 
 def getTagDesc(tag):
